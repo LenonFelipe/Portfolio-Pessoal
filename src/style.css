@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +9,9 @@
     background: #e1dcd9 ; 
  }
  nav{
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
     display: flex;
     align-items: center;
     height: 70px;
@@ -32,6 +37,7 @@ nav ul li a{
 nav ul li a:hover{
     transition: 0.5s;
     color: #a67f78; 
+    text-decoration: underline #e1dcd9;
 }
 #iconMe{
     position: relative;
@@ -43,12 +49,53 @@ nav ul li a:hover{
     width: 40px; 
 }
 #menu-container img{
-    display: none;
     filter: invert(); 
     width: 100%;
 }
 #menuClose{
     display: none;
+}
+#menuMobile{
+    left: -1000px;
+    padding: 20px;
+    position: fixed;
+    border-radius: 10px;
+    text-align-last: center;
+    display: flex;
+    justify-content: center;
+    height:300px;
+    width: 250px;
+    background: #8f8681;
+}
+#menuMobile ul{
+    list-style: none;
+}
+#menuMobile a{
+    position: relative;
+    left: -15px;
+    text-decoration: none;
+    color: #e1dcd9;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+#menuMobile li{
+    padding-bottom: 30px;
+}
+#menuMobile a:hover{
+    text-decoration: underline #39404b;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+body h1{
+    font-size:45px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;      
 }
 
 
