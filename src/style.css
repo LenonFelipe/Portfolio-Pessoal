@@ -38,11 +38,12 @@ nav ul li a:hover{
     left: 120px;  
     width: 70px;
 }
-#menu{
+#menu-container{
     height: 40px;
     width: 40px; 
 }
-#menu img{
+#menu-container img{
+    display: none;
     filter: invert(); 
     width: 100%;
 }

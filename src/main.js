@@ -1,14 +1,19 @@
 function openMenu(){
 
-    const menuOpen = document.querySelector('#s1');
-    const menuClose = document.querySelector('#s2');
-    const span3 = document.querySelector('#s3');
+    const menuOpen = document.querySelector('#menuOpen');
+    const menuClose = document.querySelector('#menuClose');
 
-    span1.style.top = '10px';
-    span1.style.transform = 'rotate(45deg)';
+    menuOpen.style.display = 'none';
+    menuClose.style.display = 'block';
 
-    span2.style.opacity = '0%';
-    
-    span3.style.top = '-10px';
-    span3.style.transform = 'rotate(130deg)';
+}
+
+function closeMenu(){
+
+    const menuOpen = document.querySelector('#menuOpen');
+    const menuClose = document.querySelector('#menuClose');
+
+    menuOpen.style.display = 'block';
+    menuClose.style.display = 'none';
+
 }
