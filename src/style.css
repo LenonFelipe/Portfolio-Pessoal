@@ -36,7 +36,6 @@ nav ul li a{
 }
 nav ul li a:hover{
     transition: 0.5s;
-    color: #a67f78; 
     text-decoration: underline #e1dcd9;
 }
 #iconMe{
@@ -133,7 +132,7 @@ header span{
     flex-wrap: wrap;
     background: #e1dcd9;
     width: 100%;
-    height: 600px;
+    height: 1150px;
 }
 .card img{
     height: 190px;
@@ -147,8 +146,60 @@ header span{
 }
 #projetos .card{
     margin-bottom: 40px;
+    background: #8f8681;
+    color: #e1dcd9;
+}
+#projetos .card a{
+    color: #e1dcd9;
 }
 
+#projetos .card a:hover{
+    color: #e1dcd9;
+}
+#top{
+    cursor: pointer;
+    position: fixed;
+    left: 90%;
+    top: 550px;
+}
+#skills-container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#title-skills h1{
+    color: #8f8681;
+    font-size:65px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;   
+    text-align-last: center; 
+}
+#skills button{
+    margin-left: 15px;
+    font-size: 20px; 
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    padding: 10px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #8f8681;
+}
+#skills button:hover{
+    transition: 0.5s;
+    background: #e1dcd9;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    height: 130px;
+    width: 45%;
+}
 
 
 
