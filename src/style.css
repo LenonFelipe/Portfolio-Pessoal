@@ -111,6 +111,45 @@ header h1{
 header span{
     color: #8f8681;
 }
+#title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+#title h1{
+    color: #39404b;
+    font-size:65px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;   
+    text-align-last: center;  
+}
+#projetos-container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #e1dcd9;
+    width: 100%;
+    height: 600px;
+}
+.card img{
+    height: 190px;
+}
+#projetos{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 40px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+#projetos .card{
+    margin-bottom: 40px;
+}
+
 
 
 
