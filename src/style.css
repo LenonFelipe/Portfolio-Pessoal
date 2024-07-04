@@ -142,8 +142,7 @@ header span{
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-    padding: 40px;
-    width: 80%;
+    width: 90%;
     flex-wrap: wrap;
 }
 #projetos .card{
