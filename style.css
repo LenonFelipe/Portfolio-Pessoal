@@ -219,33 +219,63 @@ header span{
     border-radius: 20px;
 }
 @media only screen
-and (min-width: 0px) 
-and (max-width: 480px){
+and (min-width: 400px) 
+and (max-width: 600px){
     nav ul{ 
-    display: none;
-    }
-    #iconMe{
-        left: 10%;
-    }
-    #menu-container img{
-        position: relative;
-
-    }
-    #menu-container #menuOpen{
-        display: block;
-        left: 580%;
-    }
-    #menu-container #menuClose{
-        left: 580%;
-    }
+        display: none;
+        }
+        #iconMe{
+            left: 10%;
+            width: 20%;
+        }
+        header{
+            top: -200px;
+            position: relative;
+        }
+        header h1{
+            font-size: 35px;
+        }
+        header p{
+            font-size: 17px;
+        }
+        #contacts{
+            left: -7%;
+            position: relative;   
+        }
+        #menuMobile a{
+            font-size: 25px;
+        }
+        #menuMobile{
+            position: relative;
+            z-index: 1;
+        }
+        #title h1{
+            font-size: 35px;
+        }
+        #title-skills h1{
+            font-size: 35px;
+        }
+        #skills{
+            width: 90%;
+        }
+        #menu-container img{
+            position: relative;
     
-    #top{
-        top: 1250px;
+        }
+        #menu-container #menuOpen{
+            display: block;
+            left: 580%;
+        }
+        #menu-container #menuClose{
+            left: 580%;
+        }
+        #top{
+            top: 1250px;
+        }
+        #skills-container{
+            height: 400px;
+        }
     }
-    #skills-container{
-        height: 400px;
-    }
-}
 @media only screen
 and (min-width: 600px) 
 and (max-width: 852px){
