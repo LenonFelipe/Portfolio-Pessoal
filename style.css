@@ -8,6 +8,12 @@
  html, body{
     background: #e1dcd9 ; 
  }
+ body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+ }
  nav{
     font-family: "Didact Gothic", sans-serif;
     font-weight: 400;
