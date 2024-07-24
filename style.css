@@ -219,6 +219,61 @@ header span{
     border-radius: 20px;
 }
 @media only screen
+and (min-width: 300px) 
+and (max-width: 399px){
+    nav ul{ 
+        display: none;
+        }
+        #iconMe{
+            left: 10%;
+            width: 20%;
+        }
+        header{
+            top: -300px;
+            position: relative;
+        }
+        header h1{
+            font-size: 30px;
+        }
+        header p{
+            font-size: 16px;
+        }
+        #contacts{
+            left: -10%;
+            position: relative;   
+        }
+        #menuMobile a{
+            font-size: 25px;
+        }
+        #menuMobile{
+            position: relative;
+            z-index: 1;
+        }
+        #title h1{
+            font-size: 35px;
+        }
+        #title-skills h1{
+            font-size: 35px;
+        }
+        #skills{
+            width: 90%;
+        }
+        #menu-container img{
+            position: relative;
+    
+        }
+        #menu-container #menuOpen{
+            display: block;
+            left: 580%;
+        }
+        #menu-container #menuClose{
+            left: 580%;
+        }
+        #skills-container{
+            height: 400px;
+        }
+    }
+@media only screen
 and (min-width: 400px) 
 and (max-width: 600px){
     nav ul{ 
@@ -269,37 +324,28 @@ and (max-width: 600px){
         #menu-container #menuClose{
             left: 580%;
         }
-        #top{
-            top: 1250px;
-        }
         #skills-container{
             height: 400px;
         }
     }
 @media only screen
 and (min-width: 600px) 
-and (max-width: 852px){
+and (max-width: 800px){
     nav ul{ 
         left: 20%;
     }
-    #top{
-        top: 1250px;
-    }
+
     #skills-container{
         height: 400px;
     }
 }
 @media only screen
-and (min-width: 852px) 
+and (min-width: 800px) 
 and (max-width: 928px){
     nav ul{ 
         left: 20%;
     }
-    #top{
-        top: 1100px;
-        left: 90%;
-
-    }
+   
     #skills-container{
         height: 400px;
     }
@@ -310,10 +356,7 @@ and (max-width: 1280px){
     nav ul{ 
         left: 20%;
     }
-    #top{
-        top: 770px;
-        left: 90%;
-    }
+ 
  
 }
 
